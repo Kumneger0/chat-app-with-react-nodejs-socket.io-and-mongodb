@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.onlineUsers {
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.users a {
+  text-decoration: none !important;
+  font-size: 1.3rem;
+  font-weight: 200;
+}

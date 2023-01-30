@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+.navBar{
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color:#fff;
+}
+#brand{
+  font-size: 0.8rem;
+}
+.item{
+  margin-left: -20px;
+}
+.item *{
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+.navWrapper{
+  background-color: black;
+  width: 100%
+}
+.item button{
+  border:none;
+  background-color: black;
+  color: #fff;
+}

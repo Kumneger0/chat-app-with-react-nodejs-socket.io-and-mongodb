@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+  margin: 15px, auto;
+}
+
+.loginContainer {
+  height: auto;
+}
+
+.formLogin {
+  width: 100%;
+}
+.invalidAccount {
+  display: none;
+}
+
+.btnLogin,
+.btnToSign {
+  width: 100%;
+  text-align: center;
+}
+#or {
+  width: 100%;
+  text-align: center;
+}
+.btnToSign {
+  margin: 10px;
+}
+.wrapper {
+  max-width: 80%;
+  width: 500px;
+}
